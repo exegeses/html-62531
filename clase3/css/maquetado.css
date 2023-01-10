@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 100px;
+    /* width: 1000px; */
+    background-color: #004A61;
+}
+    nav a{
+        color: #fff;
+    }
+
+
+main{
+    height: 450px;
+}
+footer{
+    height: 150px;
+    background-color: #001D26;
+}
