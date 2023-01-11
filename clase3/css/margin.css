@@ -1,0 +1,18 @@
+#violeta{
+    width: 200px;
+    height: 132px;
+    background-color: rgb(228, 109, 255);
+}
+#naranja{
+    width: 200px;
+    height: 132px;
+    background-color: rgb(255, 205, 89);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#verde{
+    width: 200px;
+    height: 132px;
+    background-color: rgb(143, 255, 109);
+    margin: 56px;
+}
