@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&display=swap');
+
+body{
+    font-family: 'Fira Sans';
+    color: #3c3c3c;
+}
+
+#contenedor1{
+    width: 600px;
+    height: 400px;
+    margin: auto;   /* centrar el contenedor */
+    background-color: #ccc;
+
+    display: flex;
+    /* justify-content: start; /* predeterminado - a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: center;*/
+    /* justify-content: space-between;*/
+    justify-content: space-evenly;
+}
+    #contenedor1 article{
+        width: 150px;
+        height: 120px;
+        background-color: rgb(202, 252, 156);
+    }
+
+#contenedor2{
+    width: 600px;
+    height: 400px;
+    margin: auto;   /* centrar el contenedor */
+    background-color: #ccc;
+
+    display: flex;
+    /* align-items: start; /* predeterminado - arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+}
+
+    #contenedor2 article{
+        width: 150px;
+        height: 120px;
+        background-color: rgb(202, 252, 156);
+    }
+
+#contenedor3{
+    width: 600px;
+    height: 400px;
+    margin: auto;   /* centrar el contenedor */
+    background-color: #ccc;
+
+    display: flex;
+    /* justify-content: center; /* centrado horizontal */
+    justify-content: space-between;
+    align-items: center; /* vertical */
+}
+    
+    #contenedor3 article{
+        width: 150px;
+        height: 120px;
+        background-color: rgb(202, 252, 156);
+    }
