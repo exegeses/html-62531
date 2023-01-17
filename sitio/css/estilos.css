@@ -35,5 +35,24 @@ header{
 
     header nav a{
         padding: 8px 0px 8px 8px;
-        
+    }
+
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+/* hero-banner */
+#hero-banner{
+    height: 500px;
+    background-image: url(../imgs/hero-banner-2.jpg);
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center; /* centrado en vertical */
+}
+    #hero-banner h1{
+        color: #fff;
+        margin-left: 100px;
     }
