@@ -56,3 +56,52 @@ main{
         color: #fff;
         margin-left: 100px;
     }
+
+/* Promos */
+#promos{
+    height: 450px;
+    margin-top: 56px;
+    background-color: #FAF0E9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+    #promos article{
+        width: 290px;
+    }
+    #promos article h2{
+        font-size: 16px;
+        margin: 24px 0px 16px 0px;
+    }
+
+/* destinos */
+#destinos{
+    margin-top: 56px;
+}
+
+.ciudad{
+    width: 992px;
+    margin: 0px auto 32px auto;
+    height: 350px;
+    display: flex;
+}
+
+    .ciudad div{
+        margin: 100px 0px 0px 100px;
+    }
+    .ciudad div h2{
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .ciudad div a{
+        display: block;
+        width: 140px;
+        margin: 24px auto 0px auto;
+        padding: 6px;
+        border: 1px solid #3c3c3c;
+        border-radius: 12px;
+        text-align: center;
+        color: #3c3c3c;
+    }
