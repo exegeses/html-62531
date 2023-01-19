@@ -140,3 +140,10 @@ main{
         font-size: 56px;
         margin: 20px;
     }
+
+/* mapa */
+#mapa iframe{
+    width: 1100px;
+    height: 450px;
+    border: none;
+}
