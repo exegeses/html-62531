@@ -105,3 +105,38 @@ main{
         text-align: center;
         color: #3c3c3c;
     }
+
+/* servicios */
+#servicios{
+    width: 762px;
+    height: 500px;
+    margin: 52px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+}
+    #servicios h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #servicios a{
+        display: block;
+        width: 160px;
+        height: 140px;
+        margin: 0px 47px;
+        border: 1px solid #3c3c3c;
+        border-radius: 12px;
+        color: #3c3c3c;
+        text-align: center;
+        transition: 500ms;
+    }
+    #servicios a:hover{
+        border: 1px solid #b14c27;
+        background-color: #DE6C42;
+        color: #fff;
+    }
+
+    .material-symbols-outlined{
+        font-size: 56px;
+        margin: 20px;
+    }
